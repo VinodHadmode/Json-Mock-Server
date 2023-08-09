@@ -15,6 +15,14 @@
       "place": "Blore",
       "batch name":"WEB-14",
       "profession":"FSD"
+    },
+    {
+      "id": 3,
+      "name": "Aman",
+      "age": 30,
+      "place": "Blore",
+      "batch name":"WEB-13",
+      "profession":"FSD"
     }
   ]
 }
