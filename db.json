@@ -40,5 +40,52 @@
       "category": "Music",
       "price": 400
     }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "material": "Stainless Steel",
+      "grade": "304",
+      "product": "Pipe",
+      "length": 6,
+      "shape": "Round",
+      "price": 10
+    },
+    {
+      "id": 2,
+      "material": "Aluminium",
+      "grade": "F12",
+      "product": "Sheet",
+      "length": 2,
+      "shape": "Flat",
+      "price": 15
+    },
+    {
+      "id": 3,
+      "material": "Copper",
+      "grade": "C11000",
+      "product": "Wire",
+      "length": 3,
+      "shape": "Round",
+      "price": 20
+    },
+    {
+      "id": 4,
+      "material": "Stainless Steel",
+      "grade": "316",
+      "product": "Rod",
+      "length": 4,
+      "shape": "Square",
+      "price": 25
+    },
+    {
+      "id": 5,
+      "material": "Brass",
+      "grade": "C36000",
+      "product": "Tube",
+      "length": 5,
+      "shape": "Rectangular",
+      "price": 30
+    }
   ]
 }
