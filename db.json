@@ -41,11 +41,16 @@
       "price": 400
     }
   ],
-  "products": [
+  "productList": [
     {
       "id": 1,
       "material": ["Stainless Steel", "Aluminum", "Carbon Steel"],
-      "grade": ["Stainless Steel 304 pipes", "Aluminum F22 pipes", "Aluminum F11 pipes", "Carbon Steel A53 pipes"],
+      "grade": [
+        "Stainless Steel 304 pipes",
+        "Aluminum F22 pipes",
+        "Aluminum F11 pipes",
+        "Carbon Steel A53 pipes"
+      ],
       "product": "Pipe",
       "length": 6,
       "shape": "Round",
@@ -54,7 +59,11 @@
     {
       "id": 2,
       "material": ["Aluminium", "Stainless Steel", "Titanium"],
-      "grade": ["Aluminum F12 sheets", "Stainless Steel 316 sheets", "Titanium Grade 5 sheets"],
+      "grade": [
+        "Aluminum F12 sheets",
+        "Stainless Steel 316 sheets",
+        "Titanium Grade 5 sheets"
+      ],
       "product": "Sheet",
       "length": 2,
       "shape": "Flat",
@@ -63,7 +72,11 @@
     {
       "id": 3,
       "material": ["Copper", "Nickel Alloy", "Stainless Steel"],
-      "grade": ["Copper C11000 wire", "Nickel 200 wire", "Stainless Steel 321 wire"],
+      "grade": [
+        "Copper C11000 wire",
+        "Nickel 200 wire",
+        "Stainless Steel 321 wire"
+      ],
       "product": "Wire",
       "length": 3,
       "shape": "Round",
@@ -72,7 +85,11 @@
     {
       "id": 4,
       "material": ["Stainless Steel", "Alloy Steel", "Carbon Steel"],
-      "grade": ["Stainless Steel 316 rods", "Alloy Steel WP5 rods", "Carbon Steel A106 rods"],
+      "grade": [
+        "Stainless Steel 316 rods",
+        "Alloy Steel WP5 rods",
+        "Carbon Steel A106 rods"
+      ],
       "product": "Rod",
       "length": 4,
       "shape": "Square",
@@ -81,7 +98,11 @@
     {
       "id": 5,
       "material": ["Brass", "Copper", "Stainless Steel"],
-      "grade": ["Brass C36000 tubes", "Copper L tubes", "Stainless Steel 304 tubes"],
+      "grade": [
+        "Brass C36000 tubes",
+        "Copper L tubes",
+        "Stainless Steel 304 tubes"
+      ],
       "product": "Tube",
       "length": 5,
       "shape": "Rectangular",
@@ -90,7 +111,11 @@
     {
       "id": 6,
       "material": ["Nickel Alloy", "Titanium", "Carbon Steel"],
-      "grade": ["Nickel 400 fittings", "Titanium Grade 2 fittings", "Carbon Steel A333 fittings"],
+      "grade": [
+        "Nickel 400 fittings",
+        "Titanium Grade 2 fittings",
+        "Carbon Steel A333 fittings"
+      ],
       "product": "Pipe Fittings",
       "length": 2,
       "shape": "Elbow",
@@ -99,7 +124,11 @@
     {
       "id": 7,
       "material": ["Stainless Steel", "Aluminum", "Brass"],
-      "grade": ["Stainless Steel 321 flanges", "Aluminum F5 flanges", "Brass C36000 flanges"],
+      "grade": [
+        "Stainless Steel 321 flanges",
+        "Aluminum F5 flanges",
+        "Brass C36000 flanges"
+      ],
       "product": "Flange",
       "length": 3,
       "shape": "Round",
@@ -108,7 +137,11 @@
     {
       "id": 8,
       "material": ["Copper", "Nickel Alloy", "Stainless Steel"],
-      "grade": ["Copper K tubing", "Nickel 200 tubing", "Stainless Steel 316 tubing"],
+      "grade": [
+        "Copper K tubing",
+        "Nickel 200 tubing",
+        "Stainless Steel 316 tubing"
+      ],
       "product": "Tubing",
       "length": 4,
       "shape": "Rectangular",
@@ -117,7 +150,11 @@
     {
       "id": 9,
       "material": ["Stainless Steel", "Alloy Steel", "Carbon Steel"],
-      "grade": ["Stainless Steel 304 bars", "Alloy Steel WP11 bars", "Carbon Steel A106 bars"],
+      "grade": [
+        "Stainless Steel 304 bars",
+        "Alloy Steel WP11 bars",
+        "Carbon Steel A106 bars"
+      ],
       "product": "Bar",
       "length": 5,
       "shape": "Round",
@@ -126,7 +163,11 @@
     {
       "id": 10,
       "material": ["Brass", "Copper", "Stainless Steel"],
-      "grade": ["Brass C36000 bolts", "Copper L bolts", "Stainless Steel 316 bolts"],
+      "grade": [
+        "Brass C36000 bolts",
+        "Copper L bolts",
+        "Stainless Steel 316 bolts"
+      ],
       "product": "Bolt",
       "length": 6,
       "shape": "Hexagonal",
@@ -135,7 +176,11 @@
     {
       "id": 11,
       "material": ["Stainless Steel", "Nickel Alloy", "Titanium"],
-      "grade": ["Stainless Steel 304 washers", "Nickel 400 washers", "Titanium Grade 5 washers"],
+      "grade": [
+        "Stainless Steel 304 washers",
+        "Nickel 400 washers",
+        "Titanium Grade 5 washers"
+      ],
       "product": "Washer",
       "length": 1,
       "shape": "Round",
@@ -144,11 +189,89 @@
     {
       "id": 12,
       "material": ["Stainless Steel", "Aluminum", "Brass"],
-      "grade": ["Stainless Steel 321 nuts", "Aluminum F22 nuts", "Brass C36000 nuts"],
+      "grade": [
+        "Stainless Steel 321 nuts",
+        "Aluminum F22 nuts",
+        "Brass C36000 nuts"
+      ],
       "product": "Nut",
       "length": 2,
       "shape": "Hexagonal",
       "price": 14
+    }
+  ],
+  "product": [
+    {
+      "id": 1,
+      "material": "Stainless Steel",
+      "grade": "304",
+      "product": "Pipe",
+      "length": 6,
+      "shape": "Round",
+      "price": 10,
+      "thickness": 0,
+      "surfaceFinish": "",
+      "outsideDia": 0
+    },
+    {
+      "id": 2,
+      "material": "Aluminium",
+      "grade": "F12",
+      "product": "Sheet",
+      "length": 2,
+      "shape": "Flat",
+      "price": 15,
+      "thickness": 0,
+      "surfaceFinish": "",
+      "outsideDia": 0
+    },
+    {
+      "id": 3,
+      "material": "Copper",
+      "grade": "C11000",
+      "product": "Wire",
+      "length": 3,
+      "shape": "Round",
+      "price": 20,
+      "thickness": 0,
+      "surfaceFinish": "",
+      "outsideDia": 0
+    },
+    {
+      "id": 4,
+      "material": "Stainless Steel",
+      "grade": "316",
+      "product": "Rod",
+      "length": 4,
+      "shape": "Square",
+      "price": 25,
+      "thickness": 0,
+      "surfaceFinish": "",
+      "outsideDia": 0
+    },
+    {
+      "id": 5,
+      "material": "Brass",
+      "grade": "C36000",
+      "product": "Tube",
+      "length": 5,
+      "shape": "Rectangular",
+      "price": 30,
+      "thickness": 0,
+      "surfaceFinish": "",
+      "outsideDia": 0
+    },
+    {
+      "id": 6,
+      "material": "Aluminium",
+      "grade": "F12",
+      "product": "Pipe",
+      "length": 10,
+      "shape": "Round",
+      "price": 50,
+      "thickness": 0,
+      "surfaceFinish": "",
+      "outsideDia": 0
     }
   ]
 }
